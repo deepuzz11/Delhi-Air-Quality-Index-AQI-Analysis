@@ -1,0 +1,5 @@
+Best parameters: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}
+Mean Absolute Error (MAE): 13.0963
+Mean Squared Error (MSE): 328.1647
+Root Mean Squared Error (RMSE): 18.1153
+R-squared (R²): 0.9910

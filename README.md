@@ -49,12 +49,24 @@ An interactive heatmap displays the correlation between different pollutants, pr
   - **High Correlation**: Strong correlation observed between PM2.5 and PM10 levels, indicating that both particulate matter sizes often increase together.
   - **Moderate Correlation**: Notable correlations between NO2 and O3, suggesting related sources or environmental conditions.
 
+## Cross-Validation Results
+
+Cross-validation was performed to assess the performance of the models used for predicting air quality levels. The results of the cross-validation are as follows:
+
+- **Mean Absolute Error (MAE):** 13.0963
+- **Mean Squared Error (MSE):** 328.1647
+- **Root Mean Squared Error (RMSE):** 18.1153
+- **R-squared (R²):** 0.9910
+
+These metrics indicate the model's performance in terms of prediction accuracy and fit.
+
 ## Usage Instructions
 
-1. **Dependencies**: Ensure that the following Python libraries are installed: `pandas`, `matplotlib`, `seaborn`, `plotly`, `folium`.
+1. **Dependencies**: Ensure that the following Python libraries are installed: `pandas`, `matplotlib`, `seaborn`, `plotly`, `folium`, `scikit-learn`.
 2. **Data Preparation**: Download and place the `delhiaqi.csv` file in the project directory.
 3. **Generate Visualizations**: Run the provided Python scripts to produce the HTML files with interactive visualizations.
-4. **View Results**: Open the HTML files in a web browser to explore the interactive plots and heatmaps.
+4. **Run Cross-Validation**: Use the provided Python scripts to perform cross-validation and view the results.
+5. **View Results**: Open the HTML files in a web browser to explore the interactive plots and heatmaps.
 
 ## Files
 
@@ -62,6 +74,7 @@ An interactive heatmap displays the correlation between different pollutants, pr
 - `seasonal_variation_pm25.html`: Interactive box plot showing seasonal variation in PM2.5 levels.
 - `time_series_pm25.html`: Interactive line plot of PM2.5 levels over time.
 - `correlation_matrix_heatmap.html`: Interactive heatmap displaying the correlation matrix of pollutants.
+- `cross_validation_results.txt`: Contains the cross-validation results.
 
 ## License
 
