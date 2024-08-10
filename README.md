@@ -1,4 +1,4 @@
-# Delhi Air Quality Index (AQI) Analysis
+# Advanced AQI Analytics : Unveiling Delhi's Air Quality Dynamics
 
 ## Project Overview
 
